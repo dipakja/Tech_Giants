@@ -28,8 +28,8 @@ In the era of 5G and edge computing, the deployment of devices across different 
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/yourusername/power-manager-telemetry.git
-    cd power-manager-telemetry
+    [git clone https://github.com/dipakja/.git](https://github.com/dipakja/Tech_Giants.git)
+    cd Tech_Giants
     ```
 
 2. **Install the required Python packages**:
