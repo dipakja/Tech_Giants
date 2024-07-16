@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: power-manager-telemetry
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: power-manager-telemetry
+  template:
+    metadata:
+      labels:
+        app: power-manager-telemetry
+    spec:
+      containers:
+      - name: power-manager-telemetry
+        image: your-docker-image:latest
+        ports:
+        - containerPort: 80
