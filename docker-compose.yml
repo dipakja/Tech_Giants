@@ -1,0 +1,9 @@
+version: '3'
+services:
+  telemetry:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/app
+    command: python main.py
